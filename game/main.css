@@ -1,0 +1,29 @@
+body {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#board {
+  border: 2px solid white;
+  margin: auto;
+  margin-bottom: 4px;
+  cursor: crosshair;
+}
+
+#flags {
+  margin: auto;
+  margin-top: 5px;
+  color: #f00;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  border: 2px solid red;
+  width: 100px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}

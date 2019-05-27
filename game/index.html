@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="shortcut icon" href="assets/mine.ico">
+  </head>
+  <body>
+
+    <!-- Set up the game and board to edit in js -->
+    <div id=game>
+      <table id=board>
+        <tbody id=internal>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Flag toggle button -->
+    <button id=flag><img src="assets/flag.png"/></button>
+
+    <!-- Number of flags left -->
+    <div id=flags></div>
+    <div id=actions>
+      <button id=home onclick="window.location.href = '/'">Go home</button>
+      <button id=functions onclick="window.location.href = '/functions'">View functions</button>
+    </div>
+
+    <!-- Import js -->
+    <script type="text/javascript" src="./site.js"></script>
+  </body>
+</html>
+

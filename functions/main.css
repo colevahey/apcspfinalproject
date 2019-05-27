@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#header {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+#intro {
+  padding-left: 18rem;
+  padding-right: 18rem;
+  font-weight: normal;
+  margin-bottom: 4rem;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  background-color: #d00;
+  font-size: 2rem;
+  color: white;
+}

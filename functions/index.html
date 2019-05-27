@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="shortcut icon" href="game/assets/mine.ico">
+  </head>
+  <body>
+    <p id=header>Minesweeper</h1>
+    <h2>Functions</h2>
+    <p id=intro>This minesweeper game is a combination of HTML, CSS, and Javascript. The game portion of the site is written almost exclusively in Javascript, with styling done in CSS and layout done in HTML. To begin the game, the user must select a difficulty level which sets the number of mines on the board. Then, the main procedure in the program is to determine whether or not the user has hit a mine. First, the game looks at whether or not the user is in flag mode. If so, it marks the space with a flag, unless there is a flag already there, in which case it just removes the flag. If the user is not in flag mode, the game looks at whether or not the space is a mine. If it is a mine, the user has just dug a mine which means the game is ended. The board displays all of the mine locations and shows the ones that the user had flagged and not flagged. If the location is not a mine, the game then looks at the number of mines around the space and displays that number on the space. In the even that the space has no mines around it, it is presented as a grey space, and since it is known that all of the spaces around it are not mines, those spaces are dug up as well. The same process repeats for the neighboring spaces in this case. After every turn, the game checks to see if every space on the board has either been dug up or marked as a mine. If every space has been opened, and it is all correct, then the game ends and the user wins.</p>
+    <button onclick="window.location.href = '/'">Return</button>
+  </body>
+</html>
+
